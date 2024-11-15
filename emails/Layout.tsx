@@ -39,29 +39,29 @@ export default function Layout({
                 src={`${emailConfig.baseUrl}/icon.ico`}
                 width="24"
                 height="24"
-                alt="Chenyme"
+                alt="Gavin"
                 className="mx-auto my-0"
               />
               <Text className="text-center">
                 <Link
-                  href="https://blog.chenyme.top"
+                  href="https://gavin0228.my"
                   className="text-zinc-700 underline"
                 >
-                  <strong>Chenyme</strong>
+                  <strong>Gavin</strong>
                 </Link>
                 <br />
                 开发者、学生党、美食家、旅行者
               </Text>
               <Text className="text-center">
                 <Link
-                  href="https://github.com/Chenyme"
+                  href="https://github.com/GavinZhang0228"
                   className="text-xs text-zinc-600 underline"
                 >
                   GitHub
                 </Link>{' '}
                 |&nbsp;
                 <Link
-                  href="https://space.bilibili.com/504270254"
+                  href="https://space.bilibili.com/12346536"
                   className="text-xs text-zinc-600 underline"
                 >
                   哔哩哔哩

@@ -2,6 +2,8 @@ import { proxy } from 'valtio'
 
 import { type PostIDLessCommentDto } from '~/db/dto/comment.dto'
 
+// 使用 Valtio 库来管理博客文章的状态。Valtio 是一个用于状态管理的库，允许你以简单的方式创建可观察的状态
+
 type PostID = string
 export const blogPostState = proxy<{
   postId: PostID

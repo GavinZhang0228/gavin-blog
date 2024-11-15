@@ -25,37 +25,37 @@ const nextConfig = {
     return [
       {
         "source": "/twitter",
-        "destination": "https://x.com/chenyme",
+        "destination": "https://x.com/zhang_gao31990",
         "permanent": true
       },
       {
         "source": "/x",
-        "destination": "https://x.com/chenyme",
+        "destination": "https://x.com/zhang_gao31990",
         "permanent": true
       },
       {
         "source": "/youtube",
-        "destination": "https://youtube.com/@chenyme",
+        "destination": "https://youtube.com/@GavinZhang228",
         "permanent": true
       },
       {
         "source": "/tg",
-        "destination": "https://t.me/chenyme",
+        "destination": "https://t.me/gavinzhang228",
         "permanent": true
       },
       {
         "source": "/linkedin",
-        "destination": "https://www.linkedin.com/in/chenyme/",
+        "destination": "https://www.linkedin.com",
         "permanent": true
       },
       {
         "source": "/github",
-        "destination": "https://github.com/chenyme",
+        "destination": "https://github.com/GavinZhang0228",
         "permanent": true
       },
       {
         "source": "/bilibili",
-        "destination": "https://space.bilibili.com/504270254",
+        "destination": "https://space.bilibili.com/12346536",
         "permanent": true
       }
     ]

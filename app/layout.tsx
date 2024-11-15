@@ -14,11 +14,11 @@ import { seo } from '~/lib/seo'
 export const metadata: Metadata = {
   metadataBase: seo.url,
   title: {
-    template: '%s | Chenyme',
+    template: '%s | Gavin',
     default: seo.title,
   },
   description: seo.description,
-  keywords: 'chenyme, blog, AAVT, OaiT',
+  keywords: 'gavin, blog',
   manifest: '/site.webmanifest',
   robots: {
     index: true,
@@ -34,17 +34,17 @@ export const metadata: Metadata = {
   openGraph: {
     title: {
       default: seo.title,
-      template: '%s | chenyme',
+      template: '%s | gavin',
     },
     description: seo.description,
-    siteName: 'Chenyme',
+    siteName: 'Gavin',
     locale: 'zh_CN',
     type: 'website',
-    url: 'https://blog.chenyme.top',
+    url: 'https://gavin0228.my',
   },
   twitter: {
-    site: '@chenyme',
-    creator: '@chenyme',
+    site: '@zhang_gao31990',
+    creator: '@zhang_gao31990',
     card: 'summary_large_image',
     title: seo.title,
     description: seo.description,

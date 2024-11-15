@@ -116,8 +116,8 @@ export async function Footer() {
             </div>
             <div className="flex flex-col items-center justify-between gap-6 sm:flex-row">
               <p className="text-sm text-zinc-500/80 dark:text-zinc-400/80">
-                &copy; {new Date().getFullYear()} Chenyme. ( •̀ ω •́ )✧
-                <PeekabooLink href="https://github.com/Chenyme">
+                <span className='mr-2'>&copy; {new Date().getFullYear()} Gavin. ʕ⸝⸝⸝˙Ⱉ˙ʔ ♡ </span>
+                <PeekabooLink href="https://github.com/GavinZhang0228">
                   GitHub
                 </PeekabooLink>
               </p>

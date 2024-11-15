@@ -79,7 +79,8 @@ export function Headline() {
         }}
       >
         <Balancer>
-          Hello，我是 Chenyme。一个热爱旅行、美食、摄影、项目开发的学生党。占有欲强，喜欢折腾，热爱生活。
+          <p>Hello，我是 Gavin。一个热爱旅行、美食、项目开发的学生。</p>
+          <p>如果一个机器绝对不会犯错，它就不可能是智能的。------阿兰图灵</p>
         </Balancer>
       </motion.p>
       <motion.div
@@ -95,18 +96,18 @@ export function Headline() {
         }}
       >
         <SocialLink
-          href="https://github.com/Chenyme"
+          href="https://github.com/GavinZhang0228"
           aria-label="我的 GitHub"
           platform="github"
         />
         <SocialLink
-          href="https://space.bilibili.com/504270254"
+          href="https://space.bilibili.com/12346536"
           aria-label="我的 Bilibili"
           platform="bilibili"
         />
         <SocialLink href="/feed.xml" platform="rss" aria-label="RSS 订阅" />
         <SocialLink
-          href="mailto:chenyme03@gmail.com"
+          href="mailto:master114366@gmail.com"
           aria-label="我的邮箱"
           platform="mail"
         />

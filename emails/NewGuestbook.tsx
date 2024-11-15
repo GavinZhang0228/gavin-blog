@@ -6,22 +6,29 @@ import { Button, Heading, Hr, Img, Section, Text } from './_components'
 import Layout from './Layout'
 
 const NewGuestbookEmail = ({
+  // 默认链接
   link = 'https://blog.chenyme.top/guestbook',
-  userFirstName = 'Chenyme',
-  userLastName = 'Orange',
+  // 用户名
+  userFirstName = 'Gavin',
+  userLastName = 'Zhang',
+  // 用户头像链接
   userImageUrl = 'https://blog.chenyme.top/icon.ico',
+  // 评论内容
   commentContent = '*测试评论*\n- Wow wtf\n- Cool',
 }: {
+  // 可选参数类型
   link?: string | null
   userFirstName?: string | null
   userLastName?: string | null
   userImageUrl?: string | null
   commentContent?: string | null
 }) => {
+  // 解析用户显示名称
   const user = parseDisplayName({
     firstName: userFirstName,
     lastName: userLastName,
   })
+  // 邮件标题
   const title = `有人在留言墙留言啦`
 
   return (

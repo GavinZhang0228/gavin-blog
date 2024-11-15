@@ -30,6 +30,7 @@ type PlatformInfo = {
   platform: Platform
   label: string
 }
+// 网址 对应了icon图标 平台 标签内容
 const iconMapper: { [key: string]: PlatformInfo } = {
   '(?:github.com)': { icon: GitHubIcon, platform: 'github', label: 'GitHub' },
   '((?:t.co)|(?:twitter.com))': {

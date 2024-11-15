@@ -1,6 +1,8 @@
-## Chenyme | 博客
+## Gavin | 博客
 
-Chenyme 的个人博客网站 [blog.chenyme.top](https://blog.chenyme.top/) 的源码。二开改自：[Cali](https://github.com/CaliCastle/cali.so)
+Gavin 的个人博客网站 [gavin0228.my](https://gavin0228.my/) 的源码。
+三开改自：陈佬 [Chenyme](https://blog.chenyme.top/)
+二开改自：[Cali](https://github.com/CaliCastle/cali.so)
 
 ### 新增支持
 
